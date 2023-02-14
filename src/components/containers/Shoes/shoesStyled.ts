@@ -19,6 +19,10 @@ export const DivShoes = styled.div<DivShoesProps>`
 export const ImageShoes = styled.img`
   height: 100%;
   width: 100%;
+  :hover {
+    transform: scale(1.3);
+    transition: 1s all ease;
+  }
   @media (max-width: 1200px) {
     heigth: 15rem;
     width: 25rem;

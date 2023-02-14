@@ -8,6 +8,7 @@ import {
   DivTitle,
   ContainerSection2,
 } from "./sectionStyled";
+import { AnimatedText } from "../../micros/AnimetedText/AnimatedText";
 
 interface SectionProps {
   padding: string;
@@ -34,12 +35,9 @@ export const Section: FunctionComponent<SectionProps> = ({ padding, name }) => {
             fontSize="4.8rem"
             fontWeight="600"
           />
-          <Title
-            margin="0"
-            title="O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan."
-            color="#F9F9F9"
-            fontSize="2.4rem"
-            fontWeight="500"
+          <AnimatedText
+            text="O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e
+            o jogador Michael Jordan."
           />
         </DivTitle>
       </ContainerSection1>

@@ -1,16 +1,17 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, ReactNode } from "react";
 import { Text, SubText } from "./titleStyled";
 
 interface TitleProps {
   name?: string;
   fontSize: string;
   color: string;
-  title: string;
+  title?: string;
   fontWeight: string;
   margin?: string;
   position?: string;
   left?: string;
   top?: string;
+  children?: ReactNode;
 }
 export const Title: FunctionComponent<TitleProps> = ({
   name,

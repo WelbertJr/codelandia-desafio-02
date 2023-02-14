@@ -21,6 +21,7 @@ export const Text = styled.p<TextProps>`
   top: ${({ top }) => top};
   @media (max-width: 671px) {
     font-size: 2.8rem;
+    text-align: center;
   }
 `;
 
@@ -34,5 +35,6 @@ export const SubText = styled.p<TextProps>`
   top: ${({ top }) => top};
   @media (max-width: 671px) {
     font-size: 1.6rem;
+    text-align: center;
   }
 `;
