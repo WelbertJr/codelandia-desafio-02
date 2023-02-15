@@ -9,6 +9,14 @@ import {
   ContainerSection2,
 } from "./sectionStyled";
 import { AnimatedText } from "../../micros/AnimetedText/AnimatedText";
+import Imagem1 from "../../../assets/1.png";
+import Imagem2 from "../../../assets/2.png";
+import Imagem3 from "../../../assets/3.png";
+import Imagem4 from "../../../assets/4.png";
+import Imagem5 from "../../../assets/5.png";
+import Imagem6 from "../../../assets/6.png";
+import Imagem7 from "../../../assets/7.png";
+import Imagem8 from "../../../assets/8.png";
 
 interface SectionProps {
   padding: string;
@@ -61,14 +69,14 @@ export const Section: FunctionComponent<SectionProps> = ({ padding, name }) => {
           fontWeight="00"
         />
         <ContainerShoes>
-          <Shoes src="src/img/1.png" alt="Imagem 1" margin="0 2rem 3.9rem 0" />
-          <Shoes src="src/img/2.png" alt="Imagem 2" margin="0 2rem 3.9rem 0" />
-          <Shoes src="src/img/3.png" alt="Imagem 3" margin="0 2rem 3.9rem 0" />
-          <Shoes src="src/img/4.png" alt="Imagem 4" margin="0 0rem 3.9rem 0" />
-          <Shoes src="src/img/5.png" alt="Imagem 5" margin="0 2rem 3.9rem 0" />
-          <Shoes src="src/img/6.png" alt="Imagem 6" margin="0 2rem 3.9rem 0" />
-          <Shoes src="src/img/7.png" alt="Imagem 7" margin="0 2rem 3.9rem 0" />
-          <Shoes src="src/img/8.png" alt="Imagem 8" margin="0 0rem 3.9rem 0" />
+          <Shoes src={Imagem1} alt="Imagem 1" margin="0 2rem 3.9rem 0" />
+          <Shoes src={Imagem2} alt="Imagem 2" margin="0 2rem 3.9rem 0" />
+          <Shoes src={Imagem3} alt="Imagem 3" margin="0 2rem 3.9rem 0" />
+          <Shoes src={Imagem4} alt="Imagem 4" margin="0 0rem 3.9rem 0" />
+          <Shoes src={Imagem5} alt="Imagem 5" margin="0 2rem 3.9rem 0" />
+          <Shoes src={Imagem6} alt="Imagem 6" margin="0 2rem 3.9rem 0" />
+          <Shoes src={Imagem7} alt="Imagem 7" margin="0 2rem 3.9rem 0" />
+          <Shoes src={Imagem8} alt="Imagem 8" margin="0 0rem 3.9rem 0" />
         </ContainerShoes>
       </ContainerSection2>
     );

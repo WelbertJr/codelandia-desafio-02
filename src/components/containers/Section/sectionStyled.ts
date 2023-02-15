@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import BgImg from "../../../assets/wallpaper.jpeg";
 interface ContainerSection1Props {
   padding: string;
   name: string;
@@ -14,7 +14,7 @@ export const ContainerSection1 = styled.section<ContainerSection1Props>`
 `;
 
 export const BgImage = styled.div`
-  background-image: url(src/img/wallpaper.jpeg);
+  background-image: url(${BgImg});
   height: 37.8rem;
   width: 100%;
   color: #181818;
